@@ -1,9 +1,9 @@
 #include "pch.h"
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
 }
 
 //Objecten(atributten): Module(naam, ec), Docent(naam, salaris), Student(naam, studentnr)
