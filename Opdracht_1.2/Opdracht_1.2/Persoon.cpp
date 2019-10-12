@@ -2,13 +2,14 @@
 #include "Persoon.h"
 
 
-Persoon::Persoon(const std::string naam, int leeftijd){
+Persoon::Persoon(std::string naam, int leeftijd) {
+
 }
 
 std::string Persoon::getNaam() {
-
+	return naam;
 }
 
 int Persoon::getLeeftijd() {
-
+	return leeftijd;
 }
